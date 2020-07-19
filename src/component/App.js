@@ -79,6 +79,7 @@ class App extends Component {
               </div>
               <div className="col-md-4">
                 <input
+                  placeholder="Select Date"
                   type="datetime-local"
                   className="form-control"
                   value={this.state.dueDate}
